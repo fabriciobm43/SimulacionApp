@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/icono_principal"
+            android:title="Principal"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/icono_social"
+            android:title="Social"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/icono_promociones"
+            android:title="Promociones"/>
+        <item
+            android:id="@+id/menu_seccion_4"
+            android:icon="@drawable/icono_notificaciones"
+            android:title="Notificaciones"/>
+        <item
+            android:id="@+id/menu_seccion_5"
+            android:icon="@drawable/icono_foros"
+            android:title="Foros"/>
+
+    </group>
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="ETIQUETAS RECIENTES"
+        >
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/icono_coordinacion"
+                android:title="COORDINACION CARRERA"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_subheader2"
+        android:title="TODAS LAS ETIQUETAS"
+        >
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_11"
+                android:icon="@drawable/icono_favorites"
+                android:title="Destacados"/>
+            <item
+                android:id="@+id/menu_opcion_3"
+                android:icon="@drawable/icono_recent"
+                android:title="Propuestos"/>
+            <item
+                android:id="@+id/menu_opcion_4"
+                android:icon="@drawable/icono_importantes"
+                android:title="Importantes"/>
+            <item
+                android:id="@+id/menu_opcion_5"
+                android:icon="@drawable/icono_enviados"
+                android:title="Enviados"/>
+            <item
+                android:id="@+id/menu_opcion_6"
+                android:icon="@drawable/icono_programados"
+                android:title="Programados"/>
+            <item
+                android:id="@+id/menu_opcion_7"
+                android:icon="@drawable/icono_bandeja"
+                android:title="Bandeja de salida"/>
+            <item
+                android:id="@+id/menu_opcion_8"
+                android:icon="@drawable/icono_myfiles"
+                android:title="Borradores"/>
+            <item
+                android:id="@+id/menu_opcion_9"
+                android:icon="@drawable/icono_todos"
+                android:title="Todos"/>
+            <item
+                android:id="@+id/menu_opcion_10"
+                android:icon="@drawable/icono_notificacion"
+                android:title="Spam"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/icono_clean"
+                android:title="Papelera"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_subheader3"
+        android:title="GOOGLE APPS"
+        >
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_12"
+                android:icon="@drawable/icono_calendar"
+                android:title="Calendar"/>
+            <item
+                android:id="@+id/menu_opcion_13"
+                android:icon="@drawable/icono_contactos"
+                android:title="Contactos"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_subheader4"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_14"
+                android:icon="@drawable/icono_settings"
+                android:title="Ajustes"/>
+            <item
+                android:id="@+id/menu_opcion_15"
+                android:icon="@drawable/icono_ayuda"
+                android:title="ayuda y comentarios"/>
+        </menu>
+    </item>
+
+</menu>

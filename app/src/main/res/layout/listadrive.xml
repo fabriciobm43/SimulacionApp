@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="284dp"
+    android:background="#ffffff">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    android:layout_marginStart="11dp"
+    android:layout_marginEnd="11dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imagen_archivo"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:src="@drawable/documento"
+            android:background="@drawable/borde_archivo_drive"
+            />
+
+        <ImageView
+            android:id="@+id/imagen_usuario"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="207dp"
+            android:layout_marginEnd="325dp"
+            android:layout_marginRight="325dp"
+            android:src="@drawable/usuario_fabri" />
+
+        <ImageView
+            android:id="@+id/imagen_pdf"
+            android:layout_width="38dp"
+            android:layout_height="29dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="340dp"
+            android:layout_marginRight="335dp"
+            android:src="@drawable/imagenpdf" />
+
+        <ImageView
+            android:id="@+id/imagen_opciones"
+            android:layout_width="26dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="347dp"
+            android:layout_marginLeft="347dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="355dp"
+            android:src="@drawable/icono_masopciones" />
+        <TextView
+            android:id="@+id/txt_subido"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginLeft="98dp"
+            android:layout_marginTop="218dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginRight="120dp"
+            android:text="Lo has subido hoy" />
+
+        <TextView
+            android:id="@+id/txt_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="98dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="121dp"
+            android:text="Practica 7 UI Toolbar Menu " />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
+</LinearLayout>

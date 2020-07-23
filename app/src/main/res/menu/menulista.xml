@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/icono_recent"
+            android:title="Recent"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/icono_favorites"
+            android:title="favorites"/>
+
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="Places"
+        android:background="#00a8f3"
+        >
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/icono_myfiles"
+                android:title="My files"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/icono_storage"
+                android:title="Storage"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_subheader1"
+        android:title="Network and Cloud"
+        android:background="#00a8f3"
+        >
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_3"
+                android:icon="@drawable/icono_network"
+                android:title="Network"/>
+            <item
+                android:id="@+id/menu_opcion_4"
+                android:icon="@drawable/icono_dropbox"
+                android:title="Dropbox"/>
+            <item
+                android:id="@+id/menu_opcion_5"
+                android:icon="@drawable/icono_drive"
+                android:title="Google Drive"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_subheader2"
+        android:title="Tool"
+        android:background="#00a8f3"
+        >
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_6"
+                android:icon="@drawable/icono_clean"
+                android:title="Clean Photo"/>
+            <item
+                android:id="@+id/menu_opcion_7"
+                android:icon="@drawable/icono_access"
+                android:title="Access from PC"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_subheader3"
+        android:title="Setting"
+        android:background="#00a8f3"
+        >
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_8"
+                android:icon="@drawable/icono_purchase"
+                android:title="Purchase"/>
+            <item
+                android:id="@+id/menu_opcion_9"
+                android:icon="@drawable/icono_settings"
+                android:title="Settings"/>
+            <item
+                android:id="@+id/menu_opcion_10"
+                android:icon="@drawable/icono_exit"
+                android:title="Exit"/>
+        </menu>
+    </item>
+</menu>
