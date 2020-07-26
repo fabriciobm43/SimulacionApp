@@ -5,7 +5,7 @@
 
     <item
         android:id="@+id/buscarusuario"
-        android:icon="@drawable/ic_search_black_24dp"
+        android:icon="@drawable/icono_lupa"
         android:title="Search"
         android:orderInCategory="100"
         app:showAsAction="always"

@@ -21,7 +21,7 @@ public class Drive extends AppCompatActivity implements NavigationView.OnNavigat
 
     DrawerLayout drawerLayout;
     NavigationView navView;
-    FloatingActionButton floatingActionButton;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,9 +31,7 @@ public class Drive extends AppCompatActivity implements NavigationView.OnNavigat
         setSupportActionBar(toolbar);
 
 
-        floatingActionButton=findViewById(R.id.floating_action_button);
-        ColorStateList csl = new ColorStateList(new int[][]{new int[0]}, new int[]{0xffC2C1C1});
-        floatingActionButton.setBackgroundTintList(csl);
+
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.iconomenu);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         navView = (NavigationView)findViewById(R.id.nav_view);
