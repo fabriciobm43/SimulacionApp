@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.example.simulacionapp.Adaptadores.Adapter;
 import com.example.simulacionapp.Adaptadores.AdapterWinzip;
 import com.example.simulacionapp.Entidades.WinzipModel;
 

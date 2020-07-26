@@ -75,7 +75,7 @@ public class Gmail extends AppCompatActivity implements NavigationView.OnNavigat
         Fragment fragment = null;
         switch (menuItem.getItemId()) {
             case R.id.menu_seccion_1:
-                fragment = new FragmentDrive();
+                fragment = new FragmentGmail();
                 fragmentTransaction = true;
                 break;
 

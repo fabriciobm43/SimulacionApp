@@ -15,7 +15,7 @@ import com.example.simulacionapp.R;
 
 import java.util.ArrayList;
 
-public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> implements View.OnClickListener{
+public class AdapterDrive extends RecyclerView.Adapter<AdapterDrive.ViewHolder> implements View.OnClickListener{
 
     LayoutInflater inflater;
     ArrayList<Archivo> model;
@@ -23,10 +23,11 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> implements
     //Listener
     private  View.OnClickListener listener;
 
-    public Adapter(Context context, ArrayList<Archivo> model){
+    public AdapterDrive(Context context, ArrayList<Archivo> model){
         this.inflater= LayoutInflater.from(context);
         this.model = model;
     }
+
 
     @NonNull
     @Override

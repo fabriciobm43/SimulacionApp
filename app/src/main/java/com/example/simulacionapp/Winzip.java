@@ -47,14 +47,14 @@ public class Winzip extends AppCompatActivity implements NavigationView.OnNaviga
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
-                drawerLayout.openDrawer(GravityCompat.START);
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
+            switch (item.getItemId()) {
+                case android.R.id.home:
+                    drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
+                    drawerLayout.openDrawer(GravityCompat.START);
+                    return true;
+                default:
+                    return super.onOptionsItemSelected(item);
+            }
     }
 
     @Override

@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.example.simulacionapp.Adaptadores.Adapter;
+import com.example.simulacionapp.Adaptadores.AdapterDrive;
 import com.example.simulacionapp.Entidades.Archivo;
 
 import java.util.ArrayList;
@@ -33,7 +33,7 @@ public class FragmentDrive extends Fragment {
     private String mParam1;
     private String mParam2;
     RecyclerView recyclerView;
-    Adapter adapterarchivo;
+    AdapterDrive adapterarchivo;
     ArrayList<Archivo> listaarchivos;
 
 
@@ -91,7 +91,7 @@ public class FragmentDrive extends Fragment {
     }
     public void mostrarData(){
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        adapterarchivo=new Adapter(getContext(),listaarchivos);
+        adapterarchivo=new AdapterDrive(getContext(),listaarchivos);
         recyclerView.setAdapter(adapterarchivo);
         adapterarchivo.setOnClickListener(new View.OnClickListener() {
             @Override
